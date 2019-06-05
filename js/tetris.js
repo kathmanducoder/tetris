@@ -148,11 +148,11 @@ function rotateMatrix(matrix) {
 function sweep() {
   for(let row = 0; row < NUM_ROWS; row++) {
     const isRowFull = board[row].every(function(value) {
-        return value == 1;
+        return value != EMPTY;
       });
 
     if(isRowFull) {
-      board.splice(r, 1);
+      board.splice(row, 1);
       let newRow = new Array(NUM_COLUMNS)
       for(let col = 0; col < NUM_COLUMNS; col++) {
         newRow[col] = EMPTY;
