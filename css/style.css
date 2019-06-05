@@ -1,0 +1,55 @@
+body {
+  background-color: #88BDBC;
+}
+
+.header {
+  font-size: 28px;
+  font-family: Verdana;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.t_1 {color: rgb(240, 10, 25);}
+.e {color: rgb(40, 240, 240);}
+.t_2 {color: rgb(160, 35, 235);}
+.r {color: rgb(10, 35, 235);}
+.i {color: rgb(240, 160, 40);}
+.s {color: rgb(40, 240, 40);}
+
+.instructions {
+  font-size: 16px;
+  font-family: Verdana;
+  line-height: 150%;
+  text-align: center;
+}
+
+.board {
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.scoreboard {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.score-text {
+  font-size: 22px;
+  font-family: Verdana;
+}
+
+#score {
+  font-size: 22px;
+  font-family: Verdana;
+  display:inline-block;
+}
